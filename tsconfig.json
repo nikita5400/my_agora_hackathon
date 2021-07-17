@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "jsx": "react",
+    "target": "es2015",
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "pretty": true,
+    "declaration": true,
+    "allowJs": true,
+    "noEmitOnError": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "store": ["store"],
+      "components": ["components"],
+      "utils": ["utils"],
+      "views": ["views"],
+      "store/*": ["src/store/*"],
+      "components/*": ["src/components/*"],
+      "utils/*": ["src/utils/*"],
+      "views/*": ["src/views/*"]
+    }
+  },
+  "include": ["./src/**/*", "./typings.d.ts"]
+}
